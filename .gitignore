@@ -1,0 +1,47 @@
+
+
+
+
+
+# Root directories
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/package-lock.json
+frontend/yarn.lock
+
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+backend/package-lock.json
+backend/yarn.lock
+
+# Common ignore patterns
+*.log
+*.tgz
+*.gz
+*.zip
+
+# IDE/editor directories
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output directories
+frontend/.next
+frontend/out
+backend/dist/
+
+# Coverage reports
+coverage/
